@@ -8,6 +8,9 @@
 6. npm install
 7. npm run dev
 
+[Watch Demo](video/ResumeAI.mp4)
+
+
 ![Alt Text](images/1.png)
 ![Alt Text](images/2.png)
 ![Alt Text](images/3.png)
