@@ -7,3 +7,11 @@
 5. open both frontend and backend in different terminal and run following command
 6. npm install
 7. npm run dev
+
+![Alt Text](images/1.png)
+![Alt Text](images/2.png)
+![Alt Text](images/3.png)
+![Alt Text](images/4.png)
+![Alt Text](images/5.png)
+![Alt Text](images/6.png)
+
