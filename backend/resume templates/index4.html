@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matthew Jones Resume</title>
+  <style>
+    /* Simulate A4 page over gray background */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ccc;
+      margin: 0;
+      padding: 40px 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .wrapper {
+      background-color: #fff;
+      width: 210mm;
+      min-height: 297mm;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .header-text h2 {
+      margin: 5px 0 0 0;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .main-content {
+      display: flex;
+      gap: 40px;
+    }
+
+    .left-section {
+      width: 65%;
+    }
+
+    .right-section {
+      width: 35%;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h3 {
+      font-size: 18px;
+      color: #2a2a2a;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .section p,
+    .section li {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job .title {
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .job .date {
+      font-size: 13px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .job ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .right-section .info-group {
+      margin-bottom: 30px;
+    }
+
+    .info-group h4 {
+      font-size: 16px;
+      color: #2a2a2a;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .info-group p,
+    .info-group a {
+      font-size: 14px;
+      color: #000;
+      line-height: 1.6;
+      text-decoration: none;
+    }
+
+    .info-group a {
+      color: #007BFF;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e6f3ff;
+      padding: 6px 10px;
+      border-left: 4px solid #007BFF;
+      font-size: 13px;
+      margin: 4px 0;
+    }
+
+    .edu p {
+      margin: 4px 0;
+    }
+
+    .reference {
+      font-style: italic;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+
+      .wrapper {
+        box-shadow: none;
+        margin: 0;
+        width: auto;
+        min-height: auto;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Header -->
+    <div class="header">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Matthew Jones">
+      <div class="header-text">
+        <h1>Matthew Jones</h1>
+        <h2>Financial Analyst</h2>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <!-- Left Main Content -->
+      <div class="left-section">
+        <div class="section">
+          <h3>Profile</h3>
+          <p>
+            Experienced and driven Financial Analyst with an impressive background of managing multi-million dollar budgets while providing analysis and account support within product development departments. Worked to reduce business expenses and develop logical and advantageous operating plan budgets. Experience creating quarterly accruals based on trends and forecasted expenses.
+          </p>
+        </div>
+
+        <div class="section">
+          <h3>Employment History</h3>
+
+          <div class="job">
+            <div class="title">Financial Analyst at GEO Corp., New York</div>
+            <div class="date">October 2012 — September 2019</div>
+            <ul>
+              <li>Created budgets and ensured that labor and material costs were decreased by 15 percent.</li>
+              <li>Created financial reports on completed projects, indicating advantageous results.</li>
+              <li>Generated financial statements including cash flow charts and balance sheets.</li>
+              <li>Created analysis and performance reports for management teams to review.</li>
+              <li>Introduced and implemented a different type of innovative software.</li>
+              <li>Assessed new development projects generating over $4.5M in revenue.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="title">Financial Analyst at Sisco Enterprises, New York</div>
+            <div class="date">September 2008 — September 2012</div>
+            <ul>
+              <li>Provided reports, ad-hoc analysis, annual operating plan budgets, monthly cash forecasts, and revenue forecasts.</li>
+              <li>Analyzed supplier contracts and advised in negotiations bringing budgets down by 6%.</li>
+              <li>Created weekly labor finance reports and presented the results to management.</li>
+              <li>Modeled anticipated revenue charts to accurately track our progress in relation to forecasts and intentions.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section edu">
+          <h3>Education</h3>
+          <p><strong>Bachelor of Finance, Villanova University, King of Prussia</strong></p>
+          <p><em>August 2004 – May 2008</em></p>
+          <p>Graduated <em>summa cum laude</em>.</p>
+          <br>
+          <p><strong>High School Diploma, Camden High School, Camden</strong></p>
+          <p><em>September 2000 – June 2004</em></p>
+        </div>
+
+        <div class="section">
+          <h3>References</h3>
+          <p class="reference">Devin Strazza from GEO Corp.</p>
+        </div>
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="right-section">
+        <div class="info-group">
+          <h4>Details</h4>
+          <p>
+            333 Oklahoma Road<br>
+            New York, NY 10024<br>
+            United States<br>
+            (917) 407-5112<br>
+            <a href="mailto:MJ12@gmail.com">MJ12@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="info-group">
+          <h4>Skills</h4>
+          <div class="tag">Financial Analysis</div><br>
+          <div class="tag">Strategic Planning</div><br>
+          <div class="tag">Trend Analysis</div><br>
+          <div class="tag">Market Assessment</div><br>
+          <div class="tag">Team Leadership</div>
+        </div>
+
+        <div class="info-group">
+          <h4>Languages</h4>
+          <div class="tag">Spanish</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

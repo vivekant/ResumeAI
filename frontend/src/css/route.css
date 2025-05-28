@@ -1,0 +1,28 @@
+.signincontainer {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    z-index: 0;
+}
+
+.signincontainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4; /* adjust to your desired opacity */
+    z-index: -1; /* place it behind the content */
+}
