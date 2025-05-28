@@ -8,7 +8,7 @@
 6. npm install
 7. npm run dev
 
-[Watch Demo](video/ResumeAI.mp4)
+[Watch Demo](https://drive.google.com/file/d/1SVG6Bw5PMs0LXYcbUHCfFHlMt2AhsXTI/view?usp=sharing)
 
 
 ![Alt Text](images/1.png)
